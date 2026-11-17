@@ -908,7 +908,6 @@ p.count {
   overflow-x:auto;
   scroll-behavior:smooth;
   scroll-snap-type:x mandatory;
-  scroll-marker-group:after;
 
   margin: 3rem 0;
 }
