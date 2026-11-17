@@ -930,53 +930,6 @@ h2.space {
 
 
 
-.carousel::-webkit-scrollbar{
-  display:none;
-}
-
-.carousel::scroll-button(left),
-.carousel::scroll-button(right) {
-    position: absolute;
-
-    width: 40px;
-    height: 40px;
-
-    border-radius: 50%;
-    border: none;
-
-    cursor: pointer;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background-color: orange;
-    color: white;
-}
-
-.carousel::scroll-button(left) {
-    content: "<---";
-    left: calc(50% - 45px);
-
-    z-index: 10;
-}
-
-.carousel::scroll-button(right) {
-    content: "--->";
-    left: calc(50% + 5px);
- 
-    z-index: 10;
-}
-
-.carousel::scroll-button(left):disabled,
-.carousel::scroll-button(right):disabled {
-    background-color: #bdbdbd;
-    color: white;
-    cursor: default;
-    pointer-events: none;
-}
-
-
 
 .card {
 
