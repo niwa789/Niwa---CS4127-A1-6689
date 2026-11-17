@@ -1,0 +1,445 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisitBrunei</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="nav-header">
+
+        <!-- navigation, layered mega menu -->
+        <nav class="site-nav">
+            
+            <!-- header, logo and title -->
+            <div class="logo">
+                <a href="index.html"><img src="assets/logo.jpg">Visit Abode</a>
+            </div>
+
+
+
+            <!-- main nav links, places to go, things to do, travel & plan, contact -->
+            <ul class="nav-links" id="primary-navigation">
+                
+                <!-- PLACES TO GO MAIN NAVIGATION -->
+                <li class="places-nav-item">
+                    <a href="  ">Places to Go</a>
+
+                    <!-- places second nav-->
+                    <section class="places-second-nav">
+                        <nav class="sub-nav">
+                            <p class="sub-item active" data-target="districts-cards" id="nav-districts">Explore by Districts</p>
+                            <p class="sub-item" data-target="nature-cards" id="nav-nature">Nature & Recreation</p>
+                            <p class="sub-item" data-target="heritage-cards" id="nav-heritage">Religious, Heritage & Culture</p>
+                            <p class="sub-item" data-target="experiences-cards" id="nav-experiences">Local Experiences</p>
+                        </nav>
+
+                        <!-- 1. explore by districts -->
+                         <!-- bruneimuara, belait, temburong, tutong-->
+
+                        <div id="districts-cards" class="places-cards panel active">
+                            <a href="bruneimuara.html" class="place-card">
+                                <img src="assets/bruneimuara.png" alt="Brunei-Muara district">
+                                <h3>Brunei-Muara</h3>
+                            </a>
+                            <a href="belait.html" class="place-card">
+                                <img src="assets/belait.png" alt="Belait district">
+                                <h3>Belait</h3>
+                            </a>
+                            <a href="temburong.html" class="place-card">
+                                <img src="assets/temburong.png" alt="Temburong district">
+                                <h3>Temburong</h3>
+                            </a>
+                            <a href="tutong.html" class="place-card">
+                                <img src="assets/tutong.png" alt="Tutong district">
+                                <h3>Tutong</h3>
+                            </a>
+                        </div>
+
+                        <!-- 2. nature -->
+                         <!-- rainforest and mangrove, beaches, waterfalls, parks and gardens (merge)-->
+                        
+                         <div id="nature-cards" class="places-cards panel">
+                            <a href="rainforests.html" class="place-card">
+                                <img src="assets/rainforest.png" alt="Rainforests and mangroves">
+                                <h3>Rainforests & Mangrove</h3>
+                            </a>
+                            <a href="beaches.html" class="place-card">
+                                <img src="assets/beach.png" alt="Beaches in Brunei">
+                                <h3>Beaches</h3>
+                            </a>
+           
+
+                            <a href="gardens.html" class="place-card">
+                                <img src="assets/garden.png" alt="Gardens in Brunei">
+                                <h3>Gardens</h3>
+                            </a>                            
+                        </div>
+
+
+                        <!-- 3. heritage, heritage and culture -->
+                         <!-- mosque, musuems, gallery and industry-->
+                        <div id="heritage-cards" class="places-cards panel">
+                            <a href="mosques.html" class="place-card">
+                                <img src="assets/mosque.png" alt="Mosques in Brunei">
+                                <h3>Mosques</h3>
+                            </a>
+                            <a href="museums.html" class="place-card">
+                                <img src="assets/musuem.png" alt="Museums in Brunei">
+                                <h3>Museums</h3>
+                            </a>
+                            <a href="galleries.html" class="place-card">
+                                <img src="assets/galleries.png" alt="Galleries & Industry">
+                                <h3>Galleries & Industry</h3>
+                            </a>
+                        </div>
+
+
+
+                        <!-- 4.  local experiences -->
+                         <!-- art tradition and workshops, local markets-->
+                        <div id="experiences-cards" class="places-cards panel">
+                            <a href="workshops.html" class="place-card">
+                                <img src="assets/art.png" alt="Art and tradition workshops">
+                                <h3>Art, Tradition & Workshops</h3>
+                            </a>
+                            <a href="kampong.html" class="place-card">
+                                <div class="nav-img">
+                                    <img src="assets/kampongayer.png" alt="Kampong Ayer">
+                                    <h3>Local Villages</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </section>
+                </li>
+
+
+
+
+
+
+
+
+
+                <!-- THINGS TO DO MAIN NAVIGATION -->
+
+
+
+
+
+
+
+                <li class="things-nav-item">
+                    <a href=" ">Things to Do</a>
+
+
+                    <!-- things second nav-->
+                    <section class="things-second-nav">
+                        <nav class="sub-nav">
+                            <p class="sub-item active" data-target="food-cards" id="nav-food">Food &amp; Dining</p>
+                            <p class="sub-item" data-target="outdoors-cards" id="nav-outdoors">Nature &amp; Outdoors Activities</p>
+                            <p class="sub-item" data-target="entertainment-cards" id="nav-entertainment">Entertainment &amp; Leisure</p>
+                            <p class="sub-item" data-target="events-cards" id="nav-events">Events &amp; Festivals</p>
+                        </nav>
+
+                        <!-- 1. food & dining -->
+                        <div id="food-cards" class="things-cards panel active">
+                            <a href="localstreetfood.html" class="things-card">
+                                <img src="assets/history1.png" alt="Local and street food">
+                                <h3>Local & Street Food</h3>
+                            </a>
+                            <a href="vegan.html" class="things-card">
+                                <img src="assets/religion.png" alt="Vegetarian and vegan food">
+                                <h3>Vegetarian &Vegan</h3>
+                            </a>
+                            <a href="cafes.html" class="things-card">
+                                <img src="assets/religion.png" alt="Cafes in Brunei">
+                                <h3>Cafes</h3>
+                            </a>
+                            <a href="nonhalal.html" class="things-card">
+                                <img src="assets/religion.png" alt="Non-halal options">
+                                <h3>Non-halal</h3>
+                            </a>
+                            <a href="trending.html" class="things-card">
+                                <img src="assets/religion.png" alt="Trending spots">
+                                <h3>Trending & New</h3>
+                            </a>
+                        </div>
+
+                        <!-- 2. nature & outdoors -->
+                        <div id="outdoors-cards" class="things-cards panel">
+                            <a href="longboat.html" class="things-card">
+                                <img src="assets/best2.png" alt="Longboat journey and kayaking">
+                                <h3>Longboat Journey / Kayaking</h3>
+                            </a>
+                            <a href="golfing.html" class="things-card">
+                                <img src="assets/gettingtobn.png" alt="Golfing in Brunei">
+                                <h3>Golfing</h3>
+                            </a>
+                            <a href="diving.html" class="things-card">
+                                <img src="assets/visa2.png" alt="Diving in Brunei">
+                                <h3>Diving</h3>
+                            </a>
+                        </div>
+
+                        <!-- 3. entertainment & leisure -->
+                        <div id="entertainment-cards" class="things-cards panel">
+                            <a href="jerudongpark.html" class="things-card">
+                                <img src="assets/hotel1.png" alt="Jerudong Park">
+                                <h3>Jerudong Park</h3>
+                            </a>
+                            <a href="empirehotel.html" class="things-card">
+                                <img src="assets/lodge.png" alt="The Empire Brunei">
+                                <h3>The Empire Brunei</h3>
+                            </a>
+                            <a href="shopping.html" class="things-card">
+                                <img src="assets/lodge.png" alt="Shopping malls">
+                                <h3>Shopping</h3>
+                            </a>
+                        </div>
+
+                        <!-- 4. events & festivals -->
+                        <div id="events-cards" class="things-cards panel">
+                            <a href="popups.html" class="things-card">
+                                <img src="assets/eco.png" alt="Community events and popups">
+                                <h3>Community Events &amp; Popups</h3>
+                            </a>
+                            <a href="festivals.html" class="things-card">
+                                <img src="assets/festival1.jpg" alt="Festivals in Brunei">
+                                <h3>Festivals</h3>
+                            </a>
+                        </div>
+                    </section>
+                </li>
+
+
+                <!-- TRAVEL & PLAN MAIN NAVIGATION -->
+                <li class="travel-nav-item">
+                    <a href="travelplan.html">Travel & Plan</a>
+
+                    <!-- tp second nav-->
+                    <section class="travel-second-nav">
+                        <nav class="sub-nav">
+                            <p class="sub-item active" data-target="learn-cards" id="nav-learn">Learn about Brunei</p>
+                            <p class="sub-item" data-target="travel-cards" id="nav-travel">Travelling to Brunei</p>
+                            <p class="sub-item" data-target="accommodation-cards" id="nav-accommodation">Accommodation</p>
+                            <p class="sub-item" data-target="transportation-cards" id="nav-transportation">Transportation</p>
+                            <p class="sub-item" data-target="tours-cards" id="nav-tours">Tours and Itineraries</p>
+                        </nav>
+
+                        <!-- 1. learn about brunei -->
+                        <div id="learn-cards" class="travel-cards panel active">
+                        
+                            <a href="history.html" class="travel-card">
+                            <img src="assets/history1.png" alt="Brunei history and culture">
+                            <h3>History & Culture</h3>
+                            </a>
+
+                        
+                            <a href="religion.html" class="travel-card">
+                            <img src="assets/religion.png" alt="Religion and etiquette">
+                            <h3>Religion & Etiquette</h3>
+                            </a>
+                
+
+                        <!-- 2. travelling to brunei -->
+                        <div id="travel-cards" class="travel-cards panel">
+                            <a href="besttime.html" class="travel-card">
+                                <img src="assets/best2.png" alt="Best time to visit">
+                                <h3>Best Time to Visit</h3>
+                            </a>
+                            <a href="gettinghere.html" class="travel-card">
+                                <img src="assets/gettingtobn.png" alt="Getting to Brunei">
+                                <h3>Getting to Brunei</h3>
+                            </a>
+                            <a href="visa.html" class="travel-card">
+                                <img src="assets/visa2.png" alt="Visa requirements">
+                                <h3>Visa Requirements</h3>
+                            </a>
+
+                            </a>
+                            <a href="traveltips.html" class="travel-card">
+                                <img src="assets/tip2.png" alt="Essential travel tips">
+                                <h3>Essential Travel Tips</h3>
+                            </a>
+                        </div>
+
+                        <!-- 3. accommodation -->
+                        <div id="accommodation-cards" class="travel-cards panel">
+                            <a href="hotels.html" class="travel-card">
+                                <img src="assets/hotel1.png" alt="Hotels in Brunei">
+                                <h3>Hotels</h3>
+                            </a>
+                            <a href="resortlodges.html" class="travel-card">
+                                <img src="assets/lodge.png" alt="Lodges and resorts">
+                                <h3>Lodges &amp; Resorts</h3>
+                            </a>
+                        </div>
+
+                        <!-- 4. transportation -->
+                        <div id="transportation-cards" class="travel-cards panel">
+                            <a href="ridehailing.html" class="travel-card">
+                                <img src="assets/ride.png" alt="Ride-hailing services">
+                                <h3>Ride-hailing</h3>
+                            </a>
+                            <a href="publicbus.html" class="travel-card">
+                                <img src="assets/bus.png" alt="Public bus transport">
+                                <h3>Public Bus</h3>
+                            </a>
+                            <a href="taxis.html" class="travel-card">
+                                <img src="assets/taxi.png" alt="Taxis in Brunei">
+                                <h3>Taxis</h3>
+                            </a>
+                        </div>
+
+                        <!-- 5. tours and itineraries -->
+                        <div id="tours-cards" class="travel-cards panel">
+                            <a href="tourpackages.html" class="travel-card">
+                                <img src="assets/tour.png" alt="Tour packages">
+                                <h3>Tour Packages</h3>
+                            </a>
+                            <a href="ecotravel.html" class="travel-card">
+                                <img src="assets/eco.png" alt="Sustainable and eco travel">
+                                <h3>Sustainable &amp; Eco Travel</h3>
+                            </a>
+                        </div>
+                    </section>
+                </li>
+
+                <!-- CONTACT -->
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+            <!-- search link -->
+            <div class="search">
+                <a href="search.html">
+                <img src="assets/search.svg">Search</a>
+            </div>
+
+        </nav>
+    </header>
+
+
+
+    <!-- general container styling-->
+    <main class="container">
+
+        <!--main content-->
+        <section class="things-food">
+
+            <!-- img + text, text and pathway ontop of img-->
+            <div class="site-text">
+                <h1 id="main-header">  </h1>  </h1>
+                <p id="pathway">    </p>
+            </div>
+
+            <div class="site-banner">
+                                <img class="banner-image" id="banner-image" src=" " alt=" ">
+
+            </div>
+
+
+            <!-- subnav title and short description -->
+            <div class="section-divider">
+                <h2 class="sub-header" id="subsection-title"></h2>
+                <p class="sub-intro" id="subsection-description"></p>
+            </div>
+
+            <section class="restaurants-grid" id="restaurants-container">
+                <!-- js inject -->
+            </section>
+        </section>
+    </main>
+
+    <!-- footer -->
+   <footer class="site-footer">
+
+        <!--enclose in container, 4 cols-->
+        <section class="footer-container">
+                <!-- container to make 4 cols-->
+
+                <div class="footer-right">
+
+                    <!-- places to go, tings to do, travel and plan, contact/connect with us -->
+
+                    <div class="footer-links">
+                        <h3>Places to Go</h3>
+                        <ul>
+
+                            <li><a href="rainforests.html">Rainforests & Mangrove</a></li>
+                            <li><a href="beaches.html">Beaches</a></li>
+                            <li><a href="gardens.html">Gardens</a></li>
+                            <li><a href="mosques.html">Mosques & Musuems</a></li>
+                            <li><a href="workshops.html">Art, Tradition & Workshops</a></li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="footer-links">
+                        <h3>Things to Do</h3>
+                        <ul>
+                            <li><a href="localstreetfood.html">Local & Street Food</a></li>
+                            <li><a href="cafes.html">Cafes</a></li>
+                            <li><a href="kayak.html">Kayaking</a></li>
+                            <li><a href="shopping.html">Shopping</a></li>                            
+                            <li><a href="popups">Community Events & Popups</a></li>   
+                                <li><a href="festivals.html">Festivals</a></li>   
+    
+
+                            
+                        </ul>
+                    </div>
+
+    
+                    
+                    <div class="footer-links">
+                        <h3>Travel & Plan</h3>
+                        <ul>
+                            <li><a href="history.html">History & Culture</a></li>
+                            <li><a href="religion.html">Religion & Etiquette</a></li>
+                            <li><a href="besttime.html">Best Time to Visit</a></li>
+                            <li><a href="gettinghere.html">Getting to Brunei</a></li>
+                            <li><a href="traveltips.html">Essential Travel Tips</a></li>
+                            <li><a href="accommodation.html">Accommodationn</a></li>
+                        </ul>
+                    </div>   
+                    
+                    
+                    <div class="footer-links">
+                        <h3>Contact Us</h3>
+                        <ul>
+                            <li>Tourism Development Department,  
+                                Level 3,<br> Ministry of Primary Resources 
+                                and Tourism,<br> Jalan Menteri Besar, <br> BB3910, Brunei Darussalam</li>
+                            <li><a href="mailto:info@tourism.gov.bn">info@tourism.gov.bn</a></li>
+                            <li><a href="tel:+6732380022">(673) 2380022</a></li>
+
+                        </ul>
+                    </div>   
+                
+                </div>
+
+
+                <!-- add logo title and copyright symbol -->
+         
+                <div class="footer-logo">
+                    <img src="assets/logo.png">
+                    </a>
+                    <p>
+                        &copy; 2026 Travel Abode. 
+                    </p>
+                </div>
+
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
